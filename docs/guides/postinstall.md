@@ -101,7 +101,7 @@ The steps to be followed vary depending upon the initramfs module loading mechan
 
 ## Adding support for customisable Touch Bar
 
-By default the Touch Bar works in the same mode which Windows Bootcamp uses on Linux. If you want to customise it, you can install `tiny-dfr` on your distro.
+By default the Touch Bar works in the same mode which Windows Bootcamp uses on Linux. If you want to customize it, you can install `tiny-dfr` on your distro.
 
 If you are using an Ubuntu or Debian based distro:
 
