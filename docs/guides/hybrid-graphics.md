@@ -10,9 +10,9 @@ Make sure you have a t2 kernel of version greater than 6.9.8-1 (you can check th
 
 If you experience system freezes, then the laptop's fans becoming loud, before the whole computer shuts off (CPU CATERR), or if the amdgpu is making the computer too hot, consider trying:
 
-1.  Set iGPU as main gpu (instructions below)
+1.  Set iGPU as the main GPU (instructions below)
 
-2.  Set AMD GPU Dynamic Power Management from auto to low or high. Low can be safer option to avoid thermal issues or save battery.
+2.  Set the AMD GPU Dynamic Power Management level from auto to low or high. Low can be safer option to avoid thermal issues or save battery.
 
     You can test it quickly with: `echo low | sudo tee /sys/bus/pci/drivers/amdgpu/0000:0?:00.0/power_dpm_force_performance_level`
 
